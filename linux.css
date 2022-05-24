@@ -1,0 +1,356 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+body {
+  background-color: #24252A;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+    z-index: 1;
+    transition: all 0.6;
+}
+
+header.sticky {
+    padding: 10px 100px;
+    background-color: #24252A;
+}
+
+header .logo img{
+    height: 70px;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    position: relative;
+    list-style: none;
+}
+
+header ul li a {
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    font-weight: 500;
+    transition: all 0.6s;
+}
+
+/* Si besoins d'une image pour backgournd-top */
+/* .banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/banner.jpg);
+    background-position: center center;
+    background-size: cover;
+} */
+
+#text {
+    color: whitesmoke;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 300px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-top: 100px;
+}
+
+.bt {
+  display: inline-block;
+  padding: 0.65em 1.6em;
+  border: 3px solid whitesmoke;
+  margin:460px 0.3em 0.3em 890px;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: whitesmoke;
+  text-align: center;
+  transition: all 0.2s;
+  animation: btbouncy 5s infinite linear;
+  position: relative;
+}
+
+.bt:hover {
+  background-color: whitesmoke;
+  color: #000000;
+}
+
+@keyframes btbouncy {
+  0% {
+    top: 0em;
+  }
+  40% {
+    top: 0em;
+  }
+  43% {
+    top: -0.9em;
+  }
+  46% {
+    top: 0em;
+  }
+  48% {
+    top: -0.4em;
+  }
+  50% {
+    top: 0em;
+  }
+  100% {
+    top: 0em;
+  }
+}
+
+.crea {
+    height: 100vh;
+    padding-top: 100px;
+}
+
+.crea h1 {
+    color: whitesmoke;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.trait {
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 0px solid #333;
+    width : 75px;
+    margin-bottom: 10px;
+}
+
+.crea p {
+    color: whitesmoke;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.crea img {
+    margin-top: 40px;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.crea p.pp {
+    font-size: 25px;
+    margin-top: 40px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#base {
+    margin-top: 100px;
+    height: 100vh;
+    background-image: url(https://i.stack.imgur.com/HhyuW.jpg);
+    background-position: center center;
+}
+
+.base h1 {
+    font-size: 27px;
+    color: whitesmoke;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.base p {
+    color: whitesmoke;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+}
+
+.base img {
+    height: 500px;
+    margin-top: 40px;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.base p.pp {
+    color: whitesmoke;
+    padding-top: 55px;
+    font-size: 25px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.ajd {
+    height: 1900px;
+}
+
+.ajd h1 {
+    font-size: 27px;
+    color: whitesmoke;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.ajd p {
+    color: whitesmoke;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+}
+
+.ajd p.pp {
+    color: whitesmoke;
+    font-size: 25px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ajd p.pp2 {
+    color: whitesmoke;
+    font-size: 25px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ajd img.deb {
+    height: 300px;
+    margin-top: 40px;
+    margin-left: 130px;
+}
+
+.ajd img.kai {
+    height: 300px;
+    margin-left: 30px;
+}
+
+.ajd img.mint {
+    height: 300px;
+    margin-left: 30px;
+}
+
+.ajd img.ubun {
+    height: 300px;
+    margin-left: 644px;
+    margin-top: 20px;
+}
+
+.ajd img.serv {
+    height: 400px;
+    margin-top: 40px;
+    border-radius: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.aut {
+    height: 40vh;
+}
+
+.aut h1.a {
+    font-size: 27px;
+    color: whitesmoke;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+
+.bn1 {
+    display: inline-block;
+    padding: 0.6em 1.7em;
+    border: 0.1em solid #ffffff;
+    margin: 30px 0.3em 0.3em 840px;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    transition: all 0.2s;
+  }
+  
+  .bn1:hover {
+    color: #000000;
+    background-color: #ffffff;
+  }
+
+
+  .bn2 {
+    display: inline-block;
+    padding: 0.6em 1.7em;
+    border: 0.1em solid #ffffff;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    transition: all 0.2s;
+  }
+  
+  .bn2:hover {
+    color: #000000;
+    background-color: #ffffff;
+  }
+
+  .aut .siteweb p {
+    margin-top: 70px;
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .aut .siteweb a {
+    color: beige;
+    font-size: 20px;
+    text-decoration: none;
+    justify-content: center;
+  }

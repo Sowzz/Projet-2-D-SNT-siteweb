@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📗 • Histoire de Linux</title>
+    <link rel="stylesheet" href="linux.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="anime.min.js"></script>
+    <link rel="icon" href="images/linux logo.png">
+</head>
+<body>
+    <style class="scroll-bar">
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            border-radius: 5px;
+            box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.25);
+
+        } 
+
+        ::-webkit-scrollbar-thumb {
+            border-radius: 5px;
+            background-color: #009578;
+
+        }
+    </style>
+
+    <style class="text-selection">
+        ::selection {
+            background-color: #B22222;
+            color: white;
+        }
+
+        ::-moz-selection {
+        background-color: #B22222;
+        color: white;
+        }   
+    </style>
+    
+    <section class="top-page">
+        <header>
+            <a href="linux.html" class="logo"><img src="images/linux logo.png" alt=""></a>
+            <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#crea">Création</a></li>
+            <li><a href="#bas">Base</a></li>
+            <li><a href="#ajd">Aujourd'hui</a></li>
+            </ul>
+        </header>
+        <script src="js/nav-bar-scroll.js"></script>
+        <!-- <section class="banner"></section> -->
+
+        <div id="text"></div>
+        <script src="js/texte.js"></script>
+
+        <a href="#crea" class="bt">Commencer</a>
+        <br>
+        <br>
+        <br>
+        <br>
+    </section>
+
+        <section class="crea" id="crea">
+            <br>
+            <h1 id="c1">Création</h1>
+            <div class="trait" id="ct"><hr></div>
+            <p id="cp">La création de Linux</p>
+
+            <img src="images/code.png" alt="" id="ci">
+            <p class="pp" id="cpp">
+                En août 1991, un étudiant en informatique de 20 ans nommé Linus Torvald pense à créer un système d’exploitation libre, 
+                <br> il fait donc une annonce sur internet disant qu’il a pour passe-temps de créer ce système d’exploitation
+                <br> mais que ce n’est pas très poussé et cela ne tournera sûrement que sur ses disques durs.
+           </p>>
+
+        </section>
+        <p id="bas"></p>
+            <section class="base" id="base">
+                <br>
+                <h1 id="b1">La base</h1>
+                <div class="trait" id="bt"><hr></div>
+                <p id="bp">Le noyau Linux</p>
+
+                <img src="images/root.png" id="bi" alt="">
+                <p class="pp" id="bpp">
+                    Le projet d’un système d’exploitation open source a très vite attiré des développeurs du monde entier qui voulaient contribuer au code. 
+                    <br> Linus a baptisé le nom du noyau de son système d’exploitation : "Linux" et a pour mascotte un manchot.
+                    <br> Il a choisi pour son noyau une licence spécifique (gpl) qui va permettre à tout utilisateur de :
+                    <br> Utiliser le logiciel comme on le souhaite 
+					<br> Modifier le logiciel pour l’adapter à ses propres besoins
+                    <br> Partager le logiciel à n'importe qui
+                    <br> Distribuer le logiciel avec ses propres modifications.
+            </p>
+            </section>
+
+
+
+                <section class="ajd"  id="ajd">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h1 id="a1">Ajourd'hui</h1>
+                    <div class="trait" id="at"><hr></div>
+                    <p id="ap">Qu'est-ce que Linux ajourd'hui ?</p>
+                    <br>
+                    <br>
+
+                    <p class="pp" id="app">
+                        A partir du noyau Linux, beaucoup d’autres systèmes d'exploitation sont nés comme :<br>
+                    </p>
+                    <img class="deb" id="deb" src="images/linux-debain.png" alt="">
+                    <img class="kai" id="kai" src="images/linux-kali.jpg" alt="">
+                    <img class="mint" id="mint" src="images/linux-mint.png" alt="">
+                    <img class="ubun" id="ubun" src="images/linux-ubuntu.png" alt="">
+                <p class="pp2" id="appp">
+                        <br>
+                        et depuis quatre ans, Microsoft a importé le noyau Linux à son systeme d’exploitation windows 10. <br>
+                        <br>
+                        Le noyau Linux a aussi apporté des modifications dans les serveurs : amazon, facebook, twitter tournent sous linux.<br>
+                    </p>
+                    <img class="serv" id="serv" src="images/salle-serveur.jpg" alt="">
+                    <p class="pp2" id="appp">
+                        Linux permet 75% des transactions boursières dans le monde. <br> <br>
+                        Linux est présent dans votre téléphone android, distributeurs d'argent ou encore votre montre connectée. <br>
+                        En bref, Linux est aujourd'hui présent dans beaucoups d'appareils connectés.
+                    </p>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </section>
+
+                    <section class="aut">
+                        <br>
+                        <br>
+                        <h1 class="a" id="a" >D'autres sites</h1>
+                        <div class="trait" id="aat"><hr></div>
+
+                        <a href="google.html" class="bn1"  target="_blank">Google</a>
+                        <a href="macos.html" class="bn2"  target="_blank">Mac os</a>
+
+                        <div class="siteweb">
+                            <p id= "ap1">Pour plus diformations : <br> <br>
+                                <a href="https://www.youtube.com/watch?v=Uq5ddTUtDkM"  target="_blank">L'histoire de Linux en vidéo</a> <br>
+                                <a href="https://fr.wikipedia.org/wiki/Linux"  target="_blank">Wikipedia linux</a></p>
+
+                        </div>
+                    </section>
+                    <script src="js/scroll-reveal.js"></script>
+</body>
+</html>
